@@ -8,7 +8,7 @@ description: Hibernate generated value foreign key solution
 When you work in Hibernate you sometimes see the <code>UK_3u5h7y36qqa13y3mauc5xxayq</code> ...
 
 <div class="img_row">
-	<img class="col three" src="/img/name.png">
+	<img class="img-responsive" src="/img/name.png">
 </div>
 <div class="container">
     To solution's this situation you should add a named foreign key annotation.
@@ -24,7 +24,7 @@ When you work in Hibernate you sometimes see the <code>UK_3u5h7y36qqa13y3mauc5xx
             private Set<Role> roles;
     {% endhighlight %}
 
-    In foreignKey annotation you simple addend a name to the table link.
+    In @ForeignKey annotation you simple addend a name to the table link.
 
     Good luck and Happy Coding!
 </div>
