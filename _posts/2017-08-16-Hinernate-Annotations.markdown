@@ -10,19 +10,21 @@ When you work in Hibernate you sometimes see the UK_3u5h7y36qqa13y3mauc5xxayq ..
 <div class="img_row">
 	<img class="col three" src="/img/name.jpg">
 </div>
-To solution's this situation you should add a named foreign key annotation.
-Try annotate fields with some like this:
+<div class="container">
+    To solution's this situation you should add a named foreign key annotation.
+    Try annotate fields with some like this:
 
-{% highlight java %}
-    @ManyToMany(cascade = CascadeType.ALL)
-        @JoinTable(name = "user_role",
-                joinColumns = @JoinColumn(name = "user_id",
-                foreignKey = @ForeignKey(name = "fk_users_id")),
-                inverseJoinColumns = @JoinColumn(name = "role_id",
-                foreignKey = @ForeignKey(name = "fk_roles_id")))
-        private Set<Role> roles;
-{% endhighlight %}
+    {% highlight java %}
+        @ManyToMany(cascade = CascadeType.ALL)
+            @JoinTable(name = "user_role",
+                    joinColumns = @JoinColumn(name = "user_id",
+                    foreignKey = @ForeignKey(name = "fk_users_id")),
+                    inverseJoinColumns = @JoinColumn(name = "role_id",
+                    foreignKey = @ForeignKey(name = "fk_roles_id")))
+            private Set<Role> roles;
+    {% endhighlight %}
 
-In foreignKey annotation you simple addend a name to the table link.
+    In foreignKey annotation you simple addend a name to the table link.
 
-Good luck and Happy Coding!
+    Good luck and Happy Coding!
+</div>
