@@ -17,4 +17,6 @@ To add named foreign key in hibernate you should annotate your fields with some 
         private Set<Role> roles;
 {% endhighlight %}
 
-In foreignKey annotation you simple addend a name to the table link
+In foreignKey annotation you simple addend a name to the table link.
+
+Good luck and Happy Coding!
