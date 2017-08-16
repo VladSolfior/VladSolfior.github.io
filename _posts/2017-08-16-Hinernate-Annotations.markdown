@@ -5,7 +5,9 @@ date:   2017-08-16 18:16
 description: march & april, looking forward to summer
 ---
 
-To add named foreign key in hibernate you should annotate your fields with some like this:
+When you work in Hibernate you sometimes see the UK_3u5h7y36qqa13y3mauc5xxayq <- that "Beautiful" fk...
+To solution's this situation you should add a named foreign key annotation.
+Try annotate fields with some like this:
 
 {% highlight java %}
     @ManyToMany(cascade = CascadeType.ALL)
