@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Hibernate annotations use
+title:  Hibernate named @ForeignKey annotation
 date:   2017-08-16 18:16
-description: march & april, looking forward to summer
+description: Hibernate generated value foreign key solution
 ---
 
 When you work in Hibernate you sometimes see the UK_3u5h7y36qqa13y3mauc5xxayq <- that "Beautiful" fk...
