@@ -4,8 +4,9 @@ title: about me
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/ .jpg">
-
+<div class="container">
+    	<img class="img-responsive" src="/img/im.jpg">
+</div>
 <div class="container">
     <br/><blockquote>
         My name is Vlad and I'm a software developer with web applications development experience on Java and related frameworks. 
