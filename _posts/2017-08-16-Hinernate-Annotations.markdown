@@ -5,10 +5,10 @@ date:   2017-08-16 18:16
 description: Hibernate generated value foreign key solution
 ---
 
-When you work in Hibernate you sometimes see the UK_3u5h7y36qqa13y3mauc5xxayq ...
+When you work in Hibernate you sometimes see the <code>UK_3u5h7y36qqa13y3mauc5xxayq</code> ...
 
 <div class="img_row">
-	<img class="col three" src="/img/name.jpg">
+	<img class="col three" src="/img/name.png">
 </div>
 <div class="container">
     To solution's this situation you should add a named foreign key annotation.
