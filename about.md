@@ -7,11 +7,13 @@ permalink: /about/
 <img class="col one right" src="/img/ .jpg">
 
 <div class="container">
-    <br/>
+    <br/><blockquote>
         My name is Vlad and I'm a software developer with web applications development experience on Java and related frameworks. 
         My strengths are attention to details, good at the team and addiction to the new technologies. My goal is to work in a team of professionals with interesting projects that will help me to gain new experience and knowledge. And in the future, I'd like to share my experience with beginners.
         My hobbies apart programming: Zumba, photography.
-    <br/>
+    </blockquote><br/>
+    
+    
 </div>
 <hr/>
 <br/>
