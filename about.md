@@ -4,15 +4,19 @@ title: about me
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<img class="col one right" src="/img/ .jpg">
 
-<br/>
-Write my biography will be here. 
-<br/>
+<div class="container">
+    <br/>
+        I'm a software developer with web applications development experience on Java and related frameworks. 
+        My strengths are attention to details, good at the team and addiction to the new technologies. My goal is to work in a team of professionals with interesting projects that will help me to gain new experience and knowledge. And in the future, I'd like to share my experience with beginners.
+        My hobbies apart programming: Zumba, photography.
+    <br/>
+</div>
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:fuentes.vlad@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
