@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div class="container">
-    	<img class="img-responsive" src="/img/im.jpg">
+    	<img class="img-responsive" src="/img/im.jpeg">
 </div>
 <div class="container">
     <br/><blockquote>
