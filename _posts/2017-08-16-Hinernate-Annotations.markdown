@@ -7,10 +7,11 @@ description: Hibernate generated value foreign key solution
 
 When you work in Hibernate you sometimes see the <code>UK_3u5h7y36qqa13y3mauc5xxayq</code> ...
 
-<div class="img_row">
-	<img class="img-responsive" src="/img/name.png">
-</div>
+
 <div class="container">
+    <div class="container">
+    	<img class="img-responsive" src="/img/name.png">
+    </div>
     To solution's this situation you should add a named foreign key annotation.
     Try annotate fields with some like this:
 
