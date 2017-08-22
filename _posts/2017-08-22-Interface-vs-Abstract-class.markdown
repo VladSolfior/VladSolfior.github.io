@@ -5,6 +5,8 @@ date: 2017-08-22 18:09:00
 description: Interface vs Абстрактный класс: различия
 ---
 <div class="container">
+
+    <p>Разница между интерфейсом и абстрактным классом:</p>
     <div class="row">
         <div class="img_row">
                 	<img class="img-responsive" src="/img/interface.png">
