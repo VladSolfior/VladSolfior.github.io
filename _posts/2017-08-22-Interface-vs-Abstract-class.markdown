@@ -2,7 +2,7 @@
 layout: post
 title: a post with code
 date: 2017-08-22 18:09:00
-description: Interface vs Абстрактный класс: различия
+description: Interface vs Abstract class:
 ---
 <div class="container">
 
